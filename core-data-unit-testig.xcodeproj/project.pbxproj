@@ -15,6 +15,7 @@
 		9BE8F26721EDDE3700A9CE87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE8F26521EDDE3700A9CE87 /* LaunchScreen.storyboard */; };
 		9BE8F26A21EDDE3700A9CE87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8F26921EDDE3700A9CE87 /* main.m */; };
 		9BE8F27421EDDE3800A9CE87 /* core_data_unit_testigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8F27321EDDE3800A9CE87 /* core_data_unit_testigTests.m */; };
+		9BE8F28321EDDFD800A9CE87 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE8F28221EDDFD800A9CE87 /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		9BE8F26F21EDDE3800A9CE87 /* core-data-unit-testigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "core-data-unit-testigTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BE8F27321EDDE3800A9CE87 /* core_data_unit_testigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = core_data_unit_testigTests.m; sourceTree = "<group>"; };
 		9BE8F27521EDDE3800A9CE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE8F28121EDDFD800A9CE87 /* CoreDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		9BE8F28221EDDFD800A9CE87 /* CoreDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				9BE8F25821EDDE3600A9CE87 /* AppDelegate.m */,
 				9BE8F25A21EDDE3600A9CE87 /* ViewController.h */,
 				9BE8F25B21EDDE3600A9CE87 /* ViewController.m */,
+				9BE8F28121EDDFD800A9CE87 /* CoreDataManager.h */,
+				9BE8F28221EDDFD800A9CE87 /* CoreDataManager.m */,
 				9BE8F25D21EDDE3600A9CE87 /* Main.storyboard */,
 				9BE8F26321EDDE3700A9CE87 /* Assets.xcassets */,
 				9BE8F26521EDDE3700A9CE87 /* LaunchScreen.storyboard */,
@@ -208,6 +213,7 @@
 			files = (
 				9BE8F26221EDDE3600A9CE87 /* core_data_unit_testig.xcdatamodeld in Sources */,
 				9BE8F25C21EDDE3600A9CE87 /* ViewController.m in Sources */,
+				9BE8F28321EDDFD800A9CE87 /* CoreDataManager.m in Sources */,
 				9BE8F26A21EDDE3700A9CE87 /* main.m in Sources */,
 				9BE8F25921EDDE3600A9CE87 /* AppDelegate.m in Sources */,
 			);
